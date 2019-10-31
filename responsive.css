@@ -1,0 +1,9 @@
+         
+.left-colume,.right-colume{float:left;width:100%}
+.right-colume{width:30%}.left-colume{width:30%}
+row-padding >.left-colume,.row-padding >.right-colume{padding: 0 8px}
+ @media screen and (max-width:800px) {.right-colume,.left-colume {width:100%;}row-padding >.left-colume,.row-padding >.right-colume{padding: 0 0px}}
+ 
+ li{cursor: pointer}
+ .slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(242, 145, 255, 0.288);-webkit-transition: .4s;transition: .4s;}
+ .theme{text-align:right;margin-right: 20px;}
